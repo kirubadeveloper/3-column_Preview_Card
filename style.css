@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(0, 0%, 95%);
+    min-height: 100vh;
+    align-items: center;
+    font-family: 'Lexend Deca',
+    sans-serif;
+    font-weight: 400;
+    display: flex;
+}
+
+.container{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.box1{
+    background: hsl(31, 77%, 52%);
+}
+
+.box2 {
+    background: hsl(184, 100%, 22%);
+}
+
+.box3 {
+    background: hsl(179, 100%, 13%);
+}
+
+
+.box{
+    padding: 40px;
+}
+
+.box img{
+    margin-bottom: 30px;
+}
+
+h2{
+    text-transform: uppercase;
+    font-family: 'Big Shoulders Display',
+        cursive;
+        font-size: 40px;
+        color: white;
+}
+
+p{
+    margin-top: 50px;
+    margin-bottom: 60px;
+    color: white;
+    font-size: 18px;
+    text-align:justify;
+}
+
+.box1 a{
+    text-decoration: none;
+    font-family: 'Lexend Deca',
+    sans-serif;
+    color: white;
+    display: block;
+    color: hsl(31, 77%, 52%);
+    border-radius: 30px;
+    padding: 20px;
+    background-color: white;
+    margin-right: 30px;
+    text-align: center;  
+}
+
+.box2 a{
+    text-decoration: none;
+    font-family: 'Lexend Deca',
+    sans-serif;
+    color: white;
+    display: block;
+    color: hsl(184, 100%, 22%);
+    border-radius: 30px;
+    padding: 20px;
+    background-color: white;
+    margin-right: 30px;
+    text-align: center;  
+}
+
+.box3 a{
+    text-decoration: none;
+    font-family: 'Lexend Deca',
+    sans-serif;
+    color: white;
+    display: block;
+    color: hsl(179, 100%, 13%);
+    border-radius: 30px;
+    padding: 20px;
+    background-color: white;
+    margin-right: 30px;
+    text-align: center;  
+}
+
+.box a:hover{
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+}
+
+a{
+    margin-bottom: 20px;
+}
+
+.box a{
+    transition: all .4s ease-in-out;
+
+}
